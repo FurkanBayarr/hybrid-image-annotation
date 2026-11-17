@@ -1,0 +1,17 @@
+# dependencies and builds
+node_modules/
+dist/
+venv/
+.venv/
+__pycache__/
+
+# binaries
+cloud-backend/server
+go-agent/agent
+
+# runtime data
+*.db
+ai-service/runs/
+ai-service/dataset/
+yolov8n.pt
+*.jpg
